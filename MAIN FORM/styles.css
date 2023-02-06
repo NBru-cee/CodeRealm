@@ -1,0 +1,209 @@
+body {
+     --primary-color: #443bf3;
+     --secondary-color: #0e0387;
+     --tertiary-color: #2c54aa;
+     --message-error-color: #f00;
+     --message-success-color: #18c318;
+     --input-message-error: #f00;
+     --default-color: rgba(0, 0, 0, 0.811);
+     --border-radius: 3px;
+     --font-size: 17px;
+     --padding: 10px;
+     --button-width: 50%;
+     --outline: none;
+     --font-family: "Barlow", sans-serif;
+     --placeholder-color: var(--primary-color);
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.header h1 {
+     color: white;
+     font-family: var(--font-family);
+}
+
+.header {
+     background-color: var(--primary-color);
+     padding: 10px;
+     position: relative;
+}
+
+.picture {
+     background-color: var(--primary-color);
+     padding: 10px;
+}
+
+.header ul {
+     display: flex;
+     flex-direction: row;
+     float: right;
+     position: absolute;
+     top:10px;
+     right: 5px;
+}
+
+.primary-navigation li {
+     margin-right: 15px;
+     list-style: none;
+     display: flex;
+     flex-direction: column;
+}
+
+.primary-navigation li a {
+     text-decoration: none;
+     color: white;
+     font-size: 2em;
+     font-family: var(--font-family);
+     transition: all 0.3s ease;
+}
+
+.primary-navigation li a:hover {
+     font-size: 2.3rem;
+     text-decoration: underline #fff;
+}
+
+.primary-navigation li span{
+     color: white;
+}
+
+figcaption {
+     color: white;
+     padding: var(--padding);
+     font-family: var(--font-family);
+}
+
+figure img {
+     border-radius: var(--border-radius);
+     width: 400px;
+     height: 200px;
+}
+
+#about h2 {
+     color: var(--primary-color);
+     text-align: center;
+     font-family: var(--font-family);
+}
+
+#about {
+     padding: 10px;
+}
+
+#about p {
+     font-size: var(--font-size);
+     font-family: var(--font-family);
+}
+
+#about strong {
+     color: var(--secondary-color);
+     font-family: var(--font-family);
+}
+
+#aside h3,
+#aside summary {
+     color: var(--secondary-color);
+     font-family: var(--font-family);
+}
+
+#aside {
+     font-family: var(--font-family);
+}
+
+footer {
+     background-color: var(--primary-color);
+     color: #fff;
+     padding: var(--padding);
+     text-align: center;
+     font-size: var(--font-size);
+     font-family: var(--font-family);
+}
+
+footer a {
+     color: #fff;
+     text-decoration: none;
+     transition: font-size 0.3s;
+}
+
+footer a:hover {
+     text-decoration: underline;
+     font-size: 1.25rem;
+}
+
+#time {
+     padding: 1rem;
+     font-size: var(--font-size);
+     font-family: var(--font-family);
+}
+
+#time p {
+     font-weight: 500;
+     color: var(--secondary-color);
+     text-align: center;
+}
+
+#time dt {
+     color: var(--primary-color);
+}
+
+.contact-form {
+     padding: var(--padding);
+     color: var(--secondary-color);
+     font-family: var(--font-family);
+     font-size: var(--font-size);
+}
+
+.contact-form input,
+.contact-form textarea {
+     padding: 0.7rem;
+     width: 90%;
+     box-sizing: border-box;
+     outline: var(--outline);
+     border: 1px solid var(--primary-color);
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+     color: var(--tertiary-color);
+     font-family: var(--font-family);
+     font-size: var(--font-size);
+}
+
+.btns {
+     background-color: var(--primary-color);
+     border-radius: var(--border-radius);
+     border: none;
+     padding: var(--padding);
+     width: 30%;
+     color: #fff;
+     font-weight: 500;
+     font-size: var(--font-size);
+     font-family: var(--font-family);
+     margin-right: 10px;
+}
+
+.btns:hover {
+     width: 35%;
+}
+
+.address {
+     padding: var(--padding);
+     font-size: var(--font-size);
+     font-family: var(--font-family);
+}
+
+.address h2 {
+     color: var(--primary-color);
+     text-align: center;
+}
+
+.address a {
+     color: #333;
+     text-decoration: none;
+     transition: color 0.3s, font-size 0.3s;
+}
+
+.address a:hover {
+     color: var(--tertiary-color);
+     text-decoration: underline;
+     font-size: 1.2rem;
+}

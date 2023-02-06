@@ -1,0 +1,158 @@
+body {
+     --background-color: #f4f4f4;
+     --font-family: 'Barlow', sans-serif;
+     --font-size: 17px;
+     --line-height: 1.6em;
+     --primary-color: #2828c7;
+     --secondary-color: #1616b7;
+     margin: 0;
+     padding: 0;
+}
+
+.container {
+     margin: auto;
+     overflow: hidden;
+}
+
+#main-header {
+     color: #fff;
+     background-color: var(--primary-color);
+     padding: 10px;
+     text-align: center;
+     font-family: var(--font-family);
+     font-size: 1.8rem;
+}
+
+#showcase {
+     background-image: url('../IMAGES/GIFS/200px-Rotating_earth_\(large\).gif');
+     background-size: cover;
+     background-position: center;
+     min-height: 500px;
+     padding: 10px;
+     text-align: center;
+}
+
+#showcase h2 {
+     line-height: 1.6em;
+     color: #fff;
+     font-size: 50px;
+     padding-top: 50px;
+     font-family: var(--font-family);
+}
+
+#main {
+     background: #fff;
+     float: left;
+     width: 60%;
+     padding: 0 30px;
+     box-sizing: border-box;
+}
+
+#main h3 {
+     color: var(--primary-color);
+     font-family: var(--font-family);
+     text-align: center;
+}
+
+#main p {
+     font-family: var(--font-family);
+     font-size: var(--font-size);
+}
+
+#sidebar {
+     background: var(--primary-color);
+     float: right;
+     width: 40%;
+     color: #fff;
+     padding: 10px;
+     box-sizing: border-box;
+}
+
+#sidebar h3 {
+     text-align: center;
+     font-family: var(--font-family);
+}
+
+#sidebar p {
+     font-family: var(--font-family);
+}
+
+#main-footer {
+     background: var(--primary-color);
+     color: #fff;
+     padding: 20px;
+     margin-top: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.starting-link {
+     text-decoration: none;
+     font-size: large;
+     color: #fff;
+     opacity: 0.8;
+     transition: all 0.5s ease-in;
+}
+
+.starting-button {
+     background-color: #fff;
+     border: 2px solid var(--primary-color);
+     border-radius: 10px;
+     transition: all 0.5s ease-in;
+     padding: 10px;
+}
+
+.starting-button:hover {
+     background-color: #ddd;
+     border-radius: 4px;
+     padding: 13px;
+     border-radius: 15px;
+}
+
+.starting-button a {
+     list-style: none;
+     color: var(--primary-color);
+     font-family: var(--font-family);
+}
+
+#to-top {
+     text-decoration: none;
+     color: #fff;
+     font-family: var(--font-family);
+     font-size: var(--font-size);
+     margin-top: 10px;
+     transition: color 0.3s, font-size 0.3s, font-weight 0.3s ease;
+}
+
+#to-top:hover {
+     color: #ddd;
+     font-size: large;
+     font-weight: bolder;
+     text-decoration: underline;
+     text-decoration-color: #ddd;
+}
+
+@media(max-width:700px) {
+     #main {
+          width: 100%;
+          float: none;
+     }
+
+     #sidebar {
+          width: 100%;
+          float: none;
+     }
+}
+
+@media(min-width:1000px) {
+     #main {
+          width: 60%;
+          float: left;
+     }
+
+     #sidebar {
+          width: 40%;
+          float: right;
+     }
+}
