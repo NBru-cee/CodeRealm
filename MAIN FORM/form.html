@@ -1,92 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Login/Signup form</title>
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="form.css">
-</head>
-<body>
-     <div class="description">
-          <h1>Code Realm</h1>
-          <p>
-               Enjoy coding anywhere<br>
-               with any language you like
-          </p>
-     </div>
-     <div class="container">
-          <form id="login-form" class="login-signup-form form-hidden">
-               <h2 class="form-title">Login here</h1>
-                    <div class="form-message"></div>
-                    <div class="form-input-group">
-                         <input class="input-group" type="text" id="name-email" placeholder="Name/Email">
-                         <div class="input-message"></div>
-                    </div>
-                    <div class="form-input-group">
-                         <input class="input-group password" type="password" placeholder="Password">
-                         <i class="bi bi-eye-slash show-password"></i>
-                         <div class="input-message"></div>
-                    </div>
-                    <button type="submit" class="continue-btn">
-                         <a href="../MAIN FORM/index.html">Login</a> </button>
-                    <p class="link-paragraph">
-                         <a class="link-text" href="#" id="forgot-password">Forgot Password?</a>
-                    </p>
-                    <p class="link-paragraph">
-                         <a class="link-text" id="link-signup" href="#">Don't have an account?Sign up here.</a>
-                    </p>
-          </form>
-          
-          
-          <form id="signup-form" class="login-signup-form">
-               <h2 class="form-title">Sign up here</h1>
-                    <div class="form-message"></div>
-                    <div class="form-input-group">
-                         <input class="input-group" type="text" id="name" placeholder="Name">
-                         <div class="input-message"></div>
-                    </div>
-                    <div class="form-input-group">
-                         <input class="input-group" type="email" id="email" placeholder="Email">
-                         <div class="input-message"></div>
-                    </div>
-                    <div class="form-input-group">
-                         <input class="input-group password" type="password" placeholder="Password">
-                         <i class="bi bi-eye-slash show-password"></i>
-                         <div class="input-message"></div>
-                    </div>
-                    <div class="form-input-group">
-                         <input class="input-group password" type="password" placeholder="Confirm Password">
-                         <i class="bi bi-eye-slash show-password"></i>
-                         <div class="input-message"></div>
-                    </div>
-                    <button type="submit" class="continue-btn">
-                        <a href="../MAIN FORM/index.html">Signup</a> 
-                    </button>
-                    <p class="link-paragraph">
-                         <a class="link-text" id="link-login" href="#">Already have an account?Login here</a>
-                    </p>
-          </form>
-
-
-          <form id="forgotten" class="login-signup-form form-hidden">
-               <h2 class="form-title">Reset Password</h2>
-               <div class="form-input-group">
-                    <input class="input-group password" type="password" placeholder="Reset Password">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login/Signup form</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="form.css" />
+    </head>
+    <body>
+        <div class="description">
+            <h1>Code Realm</h1>
+            <p>
+                Enjoy coding anywhere<br />
+                with any language you like
+            </p>
+        </div>
+        <div class="container">
+            <form id="login-form" class="login-signup-form form-hidden">
+                <h2 class="form-title">Login here</h2>
+                <div class="form-message"></div>
+                <div class="form-input-group">
+                    <input
+                        class="input-group"
+                        type="text"
+                        id="name-email"
+                        placeholder="Name/Email"
+                    />
+                    <div class="input-message"></div>
+                </div>
+                <div class="form-input-group">
+                    <input
+                        class="input-group password"
+                        type="password"
+                        placeholder="Password"
+                    />
                     <i class="bi bi-eye-slash show-password"></i>
                     <div class="input-message"></div>
-               </div>
-               <div class="form-input-group">
-                    <input class="input-group password" type="password" placeholder="Confirm Password">
+                </div>
+                <button type="submit" class="continue-btn">
+                    <a href="main.html">Login</a>
+                </button>
+                <p class="link-paragraph">
+                    <a class="link-text" href="#" id="forgot-password"
+                        >Forgot Password?</a
+                    >
+                </p>
+                <p class="link-paragraph">
+                    <a class="link-text" id="link-signup" href="#"
+                        >Don't have an account?Sign up here.</a
+                    >
+                </p>
+            </form>
+
+            <form id="signup-form" class="login-signup-form">
+                <h2 class="form-title">Sign up here</h2>
+                <div class="form-message"></div>
+                <div class="form-input-group">
+                    <input
+                        class="input-group"
+                        type="text"
+                        id="name"
+                        placeholder="Name"
+                    />
+                    <div class="input-message"></div>
+                </div>
+                <div class="form-input-group">
+                    <input
+                        class="input-group"
+                        type="email"
+                        id="email"
+                        placeholder="Email"
+                    />
+                    <div class="input-message"></div>
+                </div>
+                <div class="form-input-group">
+                    <input
+                        class="input-group password"
+                        type="password"
+                        placeholder="Password"
+                    />
                     <i class="bi bi-eye-slash show-password"></i>
                     <div class="input-message"></div>
-               </div>
-          </form>
-     </div>
-     <script src="form.js"></script>
-</body>
+                </div>
+                <div class="form-input-group">
+                    <input
+                        class="input-group password"
+                        type="password"
+                        placeholder="Confirm Password"
+                    />
+                    <i class="bi bi-eye-slash show-password"></i>
+                    <div class="input-message"></div>
+                </div>
+                <button type="submit" class="continue-btn">
+                    <a href="main.html">Signup</a>
+                </button>
+                <p class="link-paragraph">
+                    <a class="link-text" id="link-login" href="#"
+                        >Already have an account?Login here</a
+                    >
+                </p>
+            </form>
+
+            <form id="forgotten" class="login-signup-form form-hidden">
+                <h2 class="form-title">Reset Password</h2>
+                <div class="form-input-group">
+                    <input
+                        class="input-group password"
+                        type="password"
+                        placeholder="Reset Password"
+                    />
+                    <i class="bi bi-eye-slash show-password"></i>
+                    <div class="input-message"></div>
+                </div>
+                <div class="form-input-group">
+                    <input
+                        class="input-group password"
+                        type="password"
+                        placeholder="Confirm Password"
+                    />
+                    <i class="bi bi-eye-slash show-password"></i>
+                    <div class="input-message"></div>
+                </div>
+                <button type="submit" class="continue-btn">
+                    <a href="main.html">Signup</a>
+                </button>
+            </form>
+        </div>
+        <script src="form.js"></script>
+    </body>
 </html>
