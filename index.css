@@ -24,7 +24,7 @@ body {
 }
 
 #showcase {
-     background-image: url('../IMAGES/GIFS/200px-Rotating_earth_\(large\).gif');
+     background-image: url('IMAGES/GIFS/200px-Rotating_earth_\(large\).gif');
      background-size: cover;
      background-position: center;
      min-height: 500px;
